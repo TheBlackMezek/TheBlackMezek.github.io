@@ -7,11 +7,22 @@
     --main-color: #F3DCAD;
     --accent-color: #B8EEF2;
     --pop-color: #ABA0F2;
+    --pop-color-dark: hwb(247 44% 30%);
 
     --title-font: "Cambria";
     --body-font: "Arial";
 
     --resume-width: 70%;
+}
+
+a:link {
+    color: var(--pop-color);
+}
+a:visited {
+    color: var(--pop-color);
+}
+a:hover{
+    color: var(--pop-color-dark);
 }
 
 body {
