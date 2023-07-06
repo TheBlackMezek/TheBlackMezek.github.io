@@ -1,8 +1,29 @@
 
+:root {
+    --background-gray: #333535;
+    
+    --main-color: #F3DCAD;
+    --accent-color: #B8EEF2;
+    --pop-color: #ABA0F2;
+
+    --title-font: "Cambria";
+    --body-font: "Arial";
+}
+
+body {
+    background-color: var(--background-gray);
+    color: var(--accent-color);
+    font-family: sans-serif;
+    font-family: var(--body-font);
+}
+
 .main_title {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    color: var(--main-color);
+    font-family: serif;
+    font-family: var(--title-font);
 
     margin-top: 50px;
 }
@@ -10,6 +31,9 @@
 .title_subtext {
     font-size: 20px;
     text-align: center;
+    color: var(--main-color);
+    font-family: serif;
+    font-family: var(--title-font);
 }
 
 .two_column_layout {
@@ -38,6 +62,8 @@
 .resume_section_title {
     font-size: 20px;
     font-weight: bold;
+    color: var(--main-color);
+
     margin-bottom: 15px;
 }
 
@@ -48,9 +74,11 @@
 
 .resume_block_title {
     font-size: 18px;
+    color: var(--accent-color);
 }
 
 .resume_block_subtext {
     font-size: 14px;
     font-style: italic;
+    color: var(--accent-color);
 }
