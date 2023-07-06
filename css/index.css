@@ -1,6 +1,8 @@
 
 :root {
-    --background-gray: #333535;
+    --background-gray: #303030;
+    --background-gray-2: #424242;
+    --background-gray-3: #646464;
     
     --main-color: #F3DCAD;
     --accent-color: #B8EEF2;
@@ -8,6 +10,8 @@
 
     --title-font: "Cambria";
     --body-font: "Arial";
+
+    --resume-width: 70%;
 }
 
 body {
@@ -15,6 +19,20 @@ body {
     color: var(--accent-color);
     font-family: sans-serif;
     font-family: var(--body-font);
+    margin: 0px;
+}
+
+header {
+    height: 200px;
+    width: var(--resume-width);
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: var(--background-gray-3);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .main_title {
@@ -24,8 +42,6 @@ body {
     color: var(--main-color);
     font-family: serif;
     font-family: var(--title-font);
-
-    margin-top: 50px;
 }
 
 .title_subtext {
@@ -41,9 +57,12 @@ body {
     justify-content: center;
 
     padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
     padding-bottom: 50px;
+    width: var(--resume-width);
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: var(--background-gray-2);
 }
 
 .main_column {
