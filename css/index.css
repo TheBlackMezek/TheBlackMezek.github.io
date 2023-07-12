@@ -3,16 +3,17 @@
     --background-gray: #303030;
     --background-gray-2: #424242;
     --background-gray-3: #646464;
+    --text-white: #dddddd;
     
     --main-color: #F3DCAD;
-    --accent-color: #B8EEF2;
+    --accent-color: #7eccd1;
     --pop-color: #ABA0F2;
     --pop-color-dark: hwb(247 44% 30%);
 
     --title-font: "Cambria";
     --body-font: "Arial";
 
-    --resume-width: 70%;
+    --resume-max-width: 1300px;
 }
 
 a:link {
@@ -27,7 +28,7 @@ a:hover{
 
 body {
     background-color: var(--background-gray);
-    color: var(--accent-color);
+    color: var(--text-white);
     font-family: sans-serif;
     font-family: var(--body-font);
     margin: 0px;
@@ -35,7 +36,7 @@ body {
 
 header {
     height: 200px;
-    width: var(--resume-width);
+    max-width: var(--resume-max-width);
     margin-left: auto;
     margin-right: auto;
 
@@ -69,7 +70,7 @@ header {
 
     padding-top: 100px;
     padding-bottom: 50px;
-    width: var(--resume-width);
+    max-width: var(--resume-max-width);
     margin-left: auto;
     margin-right: auto;
 
